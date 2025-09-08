@@ -1,35 +1,54 @@
 body {
-
+margin: 0;
   }
 
 /****************   Nav Section **********************/
 nav {
-	
+	background-color: beige;
+  a {
+    color: blue;
+  }
+  display: flex;
+  justify-content: space-between;
 }
 
 /***********************  Footer Section   **************************/
 footer {
-	
+  display: flex;
+  justify-content: center;
+	a {
+    color: blue;
+  }
+  background-color: beige;
+  padding: 10px;
 }
 
 /*********** Splash Page ************************/
 header {
-
+padding: 40px;
+background-color: lightgrey;
 }
 
 header h1 {
-  
+  font-family: 'Arial Black', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: rgb(10, 20, 163);
 }
 
 header img {
+border-radius: 50%;
 }
 
 .address {
- 
+ font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 .tagline {
-  
+  font-family: 'Courier New', Courier, monospace
+  font-size: 14px
+  font-style: italic;
 }
 
 /************* Sections ********************/
