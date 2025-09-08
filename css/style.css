@@ -6,16 +6,7 @@ body {
 /****************   Nav Section **********************/
 nav {
 	background-color: beige;
-  a {
-    color: blue;
-    text-decoration: none;
-    padding: 0 10px;
-  }
-  a:hover {
-    text-decoration: underline;
-    color: #d93025;
-  }
-  display: flex;
+    display: flex;
   justify-content: space-between;
   padding: 10px 20px;
 }
@@ -24,18 +15,9 @@ nav {
 footer {
   display: flex;
   justify-content: center;
-	a {
-    color: blue;
-    text-decoration: none;
-    padding: 0 10px;
-  }
-  a:hover {
-    text-decoration: underline;
-    color: #d93025;
-  }
-  margin-top: 20px;
+    margin-top: 20px;
   background-color: beige;
-  padding: 10 20px;
+  padding: 10px 20px;
 }
 
 /*********** Splash Page ************************/
@@ -62,8 +44,8 @@ header img {
 }
 
 .tagline {
-  font-family: 'Courier New', Courier, monospace
-  font-size: 14px
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
   font-style: italic;
 }
 
@@ -90,8 +72,7 @@ list-style-type: disc;
 
 section a {
 color: blue;
-  text-decoration: none;
-  padding: 20px;
+text-decoration: none;
 }
 
 section a:hover {
@@ -121,6 +102,16 @@ section a:hover {
   padding: 15px;
   background-color: #f9f9f9;
 }
+nav a, footer a, section a {
+  color: blue;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+nav a:hover, footer a:hover, section a:hover {
+  text-decoration: underline;
+  color: #d93025;
+}
 
 /**************   Responsiveness   *****************/
 @media (max-width: 680px) {
@@ -136,6 +127,7 @@ section a:hover {
       gap: 10px;
       margin-top: 10px;
     }
+    
 }
 
 /**************   Contact Page   *****************/
