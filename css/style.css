@@ -71,7 +71,7 @@ list-style-type: disc;
 }
 
 section a {
-color: blue;
+color: rgb(6, 6, 246);
 text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ section a:hover {
   background-color: #f9f9f9;
 }
 nav a, footer a, section a {
-  color: blue;
+  color: rgb(6, 6, 246);
   text-decoration: none;
   padding: 0 10px;
 }
