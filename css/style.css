@@ -1,14 +1,17 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  background: linear-gradient(135deg, #ff8a65, #ff5722);
   }
 
 /****************   Nav Section **********************/
 nav {
-	background-color: beige;
+	background-color: #fefefe;
     display: flex;
   justify-content: space-between;
   padding: 10px 20px;
+  align-items: center;
+  gap: 20px;
 }
 
 /***********************  Footer Section   **************************/
@@ -16,37 +19,43 @@ footer {
   display: flex;
   justify-content: center;
     margin-top: 20px;
-  background-color: beige;
+  background-color: #ffffff;
   padding: 10px 20px;
 }
 
 /*********** Splash Page ************************/
 header {
 padding: 20px 20px;
-background-color: lightgrey;
+background-color: #ffccbc;
+display: flex;
+align-items: flex-start;
+flex-direction: column;
 }
 
 header h1 {
   font-family: 'Arial Black', sans-serif;
   font-size: 16px;
   margin: 0;
-  color: rgb(10, 20, 163);
+  color: #ff5722;
+  padding-left: 22px;
 }
 
 header img {
   border-radius: 50%;
-
+  border: 3px solid #ff5722;
 }
 
 .address {
  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  color: #424242;
 }
 
 .tagline {
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
   font-style: italic;
+  color: #000000;
 }
 
 /************* Sections ********************/
@@ -57,7 +66,7 @@ hr {
 section h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  color: rgb(10, 20, 163);
+  color: #ff5722;
 }
 
 section dl {
@@ -101,6 +110,7 @@ section a:hover {
   border-radius: 10px;
   padding: 15px;
   background-color: #f9f9f9;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 nav a, footer a, section a {
   color: rgb(6, 6, 246);
