@@ -1,12 +1,11 @@
 body {
   margin: 0;
   padding: 10px;
-  background: linear-gradient(135deg, #ff8a65, #ff5722);
-  }
+  background: linear-gradient(135deg, #ffe0d6, #ff8a65);
 
 /****************   Nav Section **********************/
 nav {
-	background-color: #fefefe;
+	background-color: #ffffffcc;
     display: flex;
   justify-content: space-between;
   padding: 10px 20px;
@@ -28,8 +27,9 @@ header {
 padding: 20px 20px;
 background-color: #ffccbc;
 display: flex;
-align-items: flex-start;
+align-items: center;
 flex-direction: column;
+text-align: center;
 }
 
 header h1 {
@@ -43,6 +43,8 @@ header h1 {
 header img {
   border-radius: 50%;
   border: 3px solid #ff5722;
+  width: 250px;
+  height: auto;
 }
 
 .address {
