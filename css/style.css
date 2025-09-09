@@ -2,11 +2,11 @@ body {
   margin: 0;
   padding: 10px;
   background: linear-gradient(135deg, #ffe0d6, #ff8a65);
-
+}
 /****************   Nav Section **********************/
 nav {
 	background-color: #ffffffcc;
-    display: flex;
+  display: flex;
   justify-content: space-between;
   padding: 10px 20px;
   align-items: center;
